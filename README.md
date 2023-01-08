@@ -26,7 +26,7 @@ SO THAT I can reliably retrieve them for later use
 
 ## Links
 
-  <a href="">Heroku</a>
+  <a href="https://nameless-atoll-40018.herokuapp.com/">Heroku</a>
   <br>
 
 
@@ -49,7 +49,7 @@ The challenge a single-page application that meets the PWA criteria. Additionall
 2. npm start dev - Start both client and server concurrently
 3. npm start - Start server and cilent
 4. npm server - Start server only
-5. npm build - Build client only
+5. npm run build - Build client only
 6. npm client - Start client only
 
 ```
