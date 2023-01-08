@@ -24,8 +24,7 @@ export const putDb = async (content) => {
   const request = store.put({ jate: content });
 // Get confirmation of the request.
   const result = await request;
-  console.log('putDb implemented');
-  console.error('putDb not implemented', result);
+  console.log('🚀 - data saved to the database', result);
 };
 
 // A export method that gets all the content from the database
@@ -37,11 +36,11 @@ export const getDb = async () => {
 // Open up the desired object store.
   const store = tx.objectStore('jate');
 // Use the .getAll() method to get all data in the database.
-  const request = store.getAll({ jate: content });
+  const request = store.getAll();
 // Get confirmation of the request.
   const result = await request;
-  console.log('getDb implemented', result);
-  console.error('getDb not implemented');
+  console.log('result.value', result);
+  return result?.value;
 };
 
 // Start the database.
