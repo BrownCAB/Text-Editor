@@ -49,7 +49,7 @@ module.exports = () => {
       }),
     ],
 
-// START - CSS loaders and babel to webpack
+// CSS loaders and babel to webpack
     module: {
       // CSS loaders
       rules: [
@@ -71,6 +71,5 @@ module.exports = () => {
         },
       ],
     }
-// END - CSS loaders and babel to webpack
   };
 };

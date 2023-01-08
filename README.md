@@ -18,7 +18,7 @@
 <img src="assets/">
 <br>
 
-I'll be building a an text editor that runs in the browser. 
+I'll be building a an text editor that runs in the browser. To build this text editor, you will start with an existing application and implement methods for getting and storing data to an IndexedDB database. You will use a package called idb, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla.
 
 AS A developer
 I WANT to create notes or code snippets with or without an internet connection
@@ -45,9 +45,13 @@ The challenge a single-page application that meets the PWA criteria. Additionall
 
 ## Testing
 ```
-1. npm init // to create package.json
-2. npm i // to install npm
-3. npm run build // to start server
+1. npm i - to install npm
+2. npm start dev - Start both client and server concurrently
+3. npm start - Start server and cilent
+4. npm server - Start server only
+5. npm build - Build client only
+6. npm client - Start client only
+
 ```
 ## Credits 
 Instructor, 2u Tutor and TA.
