@@ -48,7 +48,7 @@ The challenge a single-page application that meets the PWA criteria. Additionall
 ## Testing
 ```
 1. npm i - to install npm
-2. npm start dev - Start both client and server concurrently
+2. npm start:dev - Start both client and server concurrently
 3. npm start - Start server and cilent
 4. npm server - Start server only
 5. npm run build - Build client only
